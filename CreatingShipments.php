@@ -92,28 +92,28 @@ $Service=$_POST['_Service'];
 						'ThirdParty' => array(
 										'Reference1' 	=> '',
 										'Reference2' 	=> '',
-										'AccountNumber' => '',
+										'AccountNumber' => $Account_Number,
 										'PartyAddress'	=> array(
 											'Line1'					=> '',
 											'Line2'					=> '',
 											'Line3'					=> '',
-											'City'					=> '',
+											'City'					=> $Destination_City,
 											'StateOrProvinceCode'	=> '',
-											'PostCode'				=> '',
-											'CountryCode'			=> ''
+											'PostCode'				=>'',
+											'CountryCode'			=> $Account_Country_Code
 										),
 										'Contact'		=> array(
-											'Department'			=> '',
-											'PersonName'			=> '',
-											'Title'					=> '',
-											'CompanyName'			=> '',
-											'PhoneNumber1'			=> '',
+											'Department'			=> 'IT',
+											'PersonName'			=> 'Hosam Odeh',
+											'Title'					=> 'IT Leader',
+											'CompanyName'			=> 'Aramex',
+											'PhoneNumber1'			=> '+966553244599',
 											'PhoneNumber1Ext'		=> '',
 											'PhoneNumber2'			=> '',
 											'PhoneNumber2Ext'		=> '',
 											'FaxNumber'				=> '',
-											'CellPhone'				=> '',
-											'EmailAddress'			=> '',
+											'CellPhone'				=> '+966553244599',
+											'EmailAddress'			=> 'test@aramex.com',
 											'Type'					=> ''							
 										),
 						),
@@ -146,17 +146,17 @@ $Service=$_POST['_Service'];
 										),
 										
 										'ProductGroup' 			=> $Product_Group,
-										'ProductType'			=> 'ONP',
-										'PaymentType'			=> 'P',
+										'ProductType'			=>$Product_Type,
+										'PaymentType'			=> $Payment_Type,
 										'PaymentOptions' 		=> '',
-										'Services'				=> '',
-										'NumberOfPieces'		=> 1,
-										'DescriptionOfGoods' 	=> $Product_Type,
+										'Services'				=> $Service,
+										'NumberOfPieces'		=> $Number_Of_Pieces,
+										'DescriptionOfGoods' 	=> 'write here what you want',
 										'GoodsOriginCountry' 	=> 'SA',
 										
 										'CashOnDeliveryAmount' 	=> array(
-											'Value'					=> 0,
-											'CurrencyCode'			=> ''
+											'Value'					=> 1,
+											'CurrencyCode'			=> 'SAR'
 										),
 										
 										'InsuranceAmount'		=> array(
