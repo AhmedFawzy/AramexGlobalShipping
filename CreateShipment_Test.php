@@ -147,18 +147,18 @@ $Service=$_POST['_Service'];
 										'ProductType'			=> $Product_Type,
 										'PaymentType'			=> $Payment_Type,
 										'PaymentOptions' 		=> '',
-										'Services'				=> '',
+										'Services'				=> $Service,
 										'NumberOfPieces'		=> 1,
 										'DescriptionOfGoods' 	=>'any thing that you want write it here',
 										'GoodsOriginCountry' 	=> 'SA',
 										
 										'CashOnDeliveryAmount' 	=> array(
-											'Value'					=>0,
+											'Value'					=>100,
 											'CurrencyCode'			=> 'SAR'
 										),
 										
 										'InsuranceAmount'		=> array(
-											'Value'					=> 0,
+											'Value'					=> 100,
 											'CurrencyCode'			=> 'SAR'
 										),
 										

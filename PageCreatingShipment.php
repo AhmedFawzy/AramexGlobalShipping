@@ -16,6 +16,29 @@
 	
 </head>
 <body>
+     <?php
+        
+
+
+
+$Default_PaymentType='P';
+
+$Default_ProductGroup='DOM';
+
+$Default_NumberOfPieces='1';
+
+$Default_WeightInKG='1';
+
+$Default_Service='CODS';
+
+$Default_ProductType='CDS';
+
+$Default_OriginCountryCode='SA';
+
+$Default_DestinationCountryCode='SA';
+
+$Default_CountryCode='SA';
+    ?>
 
 <!-- webpage content goes here in the body -->
 
@@ -56,7 +79,7 @@
             <tr>
             
 
-                <td>  Country Code: <input type="text" name="AccountCountryCode" style="float: right" value="<?php echo $name;?>">
+                <td>  Country Code: <input type="text" name="AccountCountryCode" style="float: right" value="<?php echo $Default_CountryCode;?>">
                 </td>
                 <td>  Entity CODE: <input type="text" name="_EntityCode" style="float: right"  value="<?php echo $name;?>"></td>
             </tr>
@@ -81,23 +104,31 @@
                    <tr>
             
 
-                <td>  Payment Type: <input type="text" name="_PaymentType" style="float: right" value="<?php echo $name;?>">
+                <td>      Payment Type: <select name="_PaymentType" style="float: right;width:54%" >
+                        <option value="P">P</option>
+                        <option value="C">C</option>
+                        <option value="3">3</option>
+                    </select>
                 </td>
-                <td>  Product Group: <input type="text" name="_ProductGroup" style="float: right"  value="<?php echo $name;?>"></td>
+                <td>  Product Group: <input type="text" name="_ProductGroup" style="float: right"  value="<?php echo $Default_ProductGroup;?>"></td>
             </tr>
                          <tr>
             
 
-                <td>  Number Of Pieces: <input type="text" name="_NumberOfPieces" style="float: right" value="<?php echo $name;?>">
+                <td>  Number Of Pieces: <input type="text" name="_NumberOfPieces" style="float: right" value="<?php echo $Default_NumberOfPieces;?>">
                 </td>
-                <td>  Weight In K.G: <input type="text" name="_WeightInKG" style="float: right"  value="<?php echo $name;?>"></td>
+                <td>  Weight In K.G: <input type="text" name="_WeightInKG" style="float: right"  value="<?php echo $Default_WeightInKG;?>"></td>
             </tr>
                             <tr>
             
 
-                <td>  Product Type: <input type="text" name="_ProductType" style="float: right" value="<?php echo $name;?>">
+                <td>       Product Group:<select  name="_ProductGroup" style="float: right;width:53%" >
+                    <option value="DOM">DOM</option>
+                      <option value="EXP">EXP</option>
+                
+                </select>
                 </td>
-                <td> Service: <input type="text" name="_Service" style="float: right"  value="<?php echo $name;?>"></td>
+                <td> Service: <input type="text" name="_Service" style="float: right"  value="<?php echo $Default_Service;?>"></td>
             </tr>
 
          <tr><td colspan="2" style="text-align: center;text-align: center;text-shadow:-1px -1px 0 #2C7982;
@@ -114,7 +145,7 @@
 
                 <td>  Origin City: <input type="text" name="_OriginCity" style="float: right" value="<?php echo $name;?>">
                 </td>
-                <td> Origin Country Code: <input type="text" name="_OriginCountryCode" style="float: right"  value="<?php echo $name;?>"></td>
+                <td> Origin Country Code: <input type="text" name="_OriginCountryCode" style="float: right"  value="<?php echo $Default_OriginCountryCode;?>"></td>
             </tr>
 
               <tr><td colspan="2" style="text-align: center;
@@ -132,7 +163,7 @@
 
                 <td>  Destination City: <input type="text" name="_DestinationCity" style="float: right" value="<?php echo $name;?>">
                 </td>
-                <td> Destination Country Code: <input type="text" name="_DestinationCountryCode" style="float: right"  value="<?php echo $name;?>"></td>
+                <td> Destination Country Code: <input type="text" name="_DestinationCountryCode" style="float: right"  value="<?php echo $Default_DestinationCountryCode;?>"></td>
             </tr>
         </table>
    
