@@ -4,7 +4,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 <!-- your webpage info goes here -->
 
-    <title>My First Website</title>
+    <title>PHP AramexGlobal</title>
 	
 	<meta name="author" content="your name" />
 	<meta name="description" content="" />

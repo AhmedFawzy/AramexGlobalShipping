@@ -21,6 +21,8 @@
         
 
 
+$DefaultAccountNumber=$_COOKIE['varname'];
+echo $DefaultAccountNumber ;
 
 $Default_PaymentType='P';
 
@@ -71,7 +73,7 @@ $Default_CountryCode='SA';
     color: #fff"   >Account Information</td></tr>
         <tr>
         
-            <td >  Account Number: <input type="text"  name="_AccountNumber" style="float: right" value="<?php echo $name;?>"></td>
+            <td >  Account Number: <input type="text"  name="_AccountNumber" style="float: right" value="<?php echo $DefaultAccountNumber;?>"></td>
             <td>  Account PIN Code: <input type="text" name="_AccountPINCode" style="float:right" value="<?php echo $name;?>"></td>
 
         </tr>

@@ -4,7 +4,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 <!-- your webpage info goes here -->
 
-    <title>My First Website</title>
+    <title>PHP AramexGlobal</title>
 	
 	<meta name="author" content="your name" />
 	<meta name="description" content="" />
@@ -122,11 +122,7 @@ $Default_CountryCode='SA';
                             <tr>
             
 
-                <td>       Product Group:<select  name="_ProductGroup" style="float: right;width:53%" >
-                    <option value="DOM">DOM</option>
-                      <option value="EXP">EXP</option>
-                
-                </select>
+             <td>  Product Type: <input type="text" name="_ProductType" style="float: right" value="<?php echo $Default_ProductType;?>">
                 </td>
                 <td> Service: <input type="text" name="_Service" style="float: right"  value="<?php echo $Default_Service;?>"></td>
             </tr>

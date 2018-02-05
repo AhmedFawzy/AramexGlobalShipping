@@ -4,9 +4,9 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
-<!-- your webpage info goes here -->
 
-    <title>My First Website</title>
+
+    <title>PHP AramexGlobal</title>
 	
 	<meta name="author" content="Hosam Odeh" />
 	<meta name="description" content="" />
@@ -17,6 +17,7 @@
 </head>
 <body>
 
+    
 <!-- webpage content goes here in the body -->
 
 	<div id="page">
