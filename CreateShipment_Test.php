@@ -90,29 +90,29 @@ $Service=$_POST['_Service'];
 						'ThirdParty' => array(
 										'Reference1' 	=> '',
 										'Reference2' 	=> '',
-										'AccountNumber' => '',
+										'AccountNumber' => $Account_Number,
 										'PartyAddress'	=> array(
 											'Line1'					=> '',
 											'Line2'					=> '',
 											'Line3'					=> '',
-											'City'					=> '',
+											'City'					=>$Destination_City,
 											'StateOrProvinceCode'	=> '',
 											'PostCode'				=> '',
-											'CountryCode'			=> ''
+											'CountryCode'			=> $Account_Country_Code
 										),
-										'Contact'		=> array(
+											'Contact'		=> array(
 											'Department'			=> 'IT',
-											'PersonName'			=> 'Hosam',
+											'PersonName'			=> 'Hosam Odeh',
 											'Title'					=> 'IT Leader',
-											'CompanyName'			=> 'aramex',
-											'PhoneNumber1'			=> '',
+											'CompanyName'			=> 'Aramex',
+											'PhoneNumber1'			=> '+966553244599',
 											'PhoneNumber1Ext'		=> '',
 											'PhoneNumber2'			=> '',
 											'PhoneNumber2Ext'		=> '',
 											'FaxNumber'				=> '',
-											'CellPhone'				=> '',
-											'EmailAddress'			=> 'hosamodeh@aramex.com',
-											'Type'					=> ''							
+											'CellPhone'				=> '+966553244599',
+											'EmailAddress'			=> 'test@aramex.com',
+											'Type'					=> ''		
 										),
 						),
 						
@@ -154,22 +154,22 @@ $Service=$_POST['_Service'];
 										
 										'CashOnDeliveryAmount' 	=> array(
 											'Value'					=>100,
-											'CurrencyCode'			=> 'SAR'
+											'CurrencyCode'			=> 'AUD'
 										),
 										
 										'InsuranceAmount'		=> array(
-											'Value'					=> 100,
-											'CurrencyCode'			=> 'SAR'
+											'Value'					=> 1,
+											'CurrencyCode'			=> 'AUD'
 										),
 										
 										'CollectAmount'			=> array(
 											'Value'					=> 0,
-											'CurrencyCode'			=> 'SAR'
+											'CurrencyCode'			=> 'AUD'
 										),
 										
 										'CashAdditionalAmount'	=> array(
 											'Value'					=> 0,
-											'CurrencyCode'			=> 'SAR'							
+											'CurrencyCode'			=> 'AUD'							
 										),
 										
 										'CashAdditionalAmountDescription' => '',
