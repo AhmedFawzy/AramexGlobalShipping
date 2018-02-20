@@ -31,6 +31,7 @@
 				<li><a href="TestShippingWSDL.zip" style="background: #3EACBA">Download Test Shipping WSDL </a></li>
 			<li style=""><a href="LiveShippingWSDL.zip">Download Live Shipping WSDL </a></li>
                 <li><a href="FetchingWSDL.zip" style="background: #3EACBA">Download Fetching WSDL </a></li>
+                 <li><a href="TestWSDLtest.zip" style="background: #3EACBA">Download Test Fetching WSDL </a></li>
                    <li><a href="TrackingShipmentWSDL.zip">Download Tracking WSDL </a></li>
 			</ul>	
 		</div>
@@ -66,6 +67,15 @@
                 </br>
                 </br>
                 <a href="PageCreatingShipment_Test.php"><?php echo "2-Create Shipment"?></a>
+                 </br>
+                </br>
+                <a href="Page_FetchingCities_Test.php"><?php echo "3-Fetching Cities"?></a>
+                 </br>
+                </br>
+                <a href="PageFetchingCountries_Test.php"><?php echo "4-Fetching Countries"?></a>
+                   </br>
+                </br>
+                <a href="PageFetchingCountryViaCountryCod_Test.php"><?php echo "5-Fetching Countries Via Country Code"?></a>
 			</p>
 		
 		</div>

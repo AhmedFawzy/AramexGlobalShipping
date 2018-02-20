@@ -154,29 +154,29 @@ $Service=$_POST['_Service'];
 										
 										'CashOnDeliveryAmount' 	=> array(
 											'Value'					=>100,
-											'CurrencyCode'			=> 'AUD'
+											'CurrencyCode'			=> 'SAR'
 										),
 										
 										'InsuranceAmount'		=> array(
-											'Value'					=> 1,
-											'CurrencyCode'			=> 'AUD'
+											'Value'					=> 0,
+											'CurrencyCode'			=> 'SAR'
 										),
 										
 										'CollectAmount'			=> array(
 											'Value'					=> 0,
-											'CurrencyCode'			=> 'AUD'
+											'CurrencyCode'			=> 'SAR'
 										),
 										
 										'CashAdditionalAmount'	=> array(
 											'Value'					=> 0,
-											'CurrencyCode'			=> 'AUD'							
+											'CurrencyCode'			=> 'SAR'						
 										),
 										
 										'CashAdditionalAmountDescription' => '',
 										
 										'CustomsValueAmount' => array(
 											'Value'					=> 0,
-											'CurrencyCode'			=> ''								
+											'CurrencyCode'			=> 'SAR'								
 										),
 										
 										'Items' 				=> array(
